@@ -142,7 +142,7 @@ public class Expression {
 
                         }
                         String str = Double.toString(v3);
-                        if (i != l - 1) {
+                        if (i != l ) {
                             newExp = exp.substring(0, start) + str + exp.substring(i, l);
                             i = start;
 
